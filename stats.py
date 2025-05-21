@@ -11,3 +11,13 @@ def count_characters(string):
         else:
             char_count[char] = 1
     return char_count
+
+def sort_on(dict):
+    return dict[1]
+
+def sort_char_dictionary(chars):
+    list = []
+    for char in chars:
+        list.append((char, chars[char]))
+    list.sort()
+    return list

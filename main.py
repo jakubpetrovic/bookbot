@@ -1,7 +1,6 @@
 from stats import count_words, sort_char_dictionary
 from stats import count_characters
 import sys
-import os
 
 def get_book_text(filepath):
     with open(filepath) as f:
